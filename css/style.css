@@ -47,17 +47,29 @@ h1{
 ul{
   margin-top: 200px;
   margin-left: 20px;
+  text-decoration: none;
+  position: absolute;
+  z-index: 2
 }
 
-ul li{
+ul li {
   margin-bottom: 15px;
+  list-style: none;
 }
+
+.fa{
+  position: relative;
+  padding-top: 10px;
+}
+
 
 i{
   z-index: 2;
   position: absolute;
   color: #ffff;
   opacity: 0;
+  padding-top: 10px;
+
 }
 
 .card:hover img{
